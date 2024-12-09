@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(35, 138, 129);
+   height: 1000vh;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px ;
+    position: fixed;
+    background-color:  rgb(35, 138, 129);
+    width: 100%;
+    z-index: 9999;
+    height: 100px;
+}
+#banner {
+    border: 3px solid rgb(97, 66, 15);
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 100px;
+}
+a img{
+    width: 300px;
+    height: auto;
+    margin-top: -45px;
+}
+.menup{
+    color: rgb(107, 75, 23);
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.menup:hover{
+    color: rgb(221, 218, 15);
+    transform: scale(2);
+    transition: color 0.35;
+}
+.nav{
+    list-style: none;
+    padding: 35px;
+
+}
+
+
+    #lista{
+        display: flex;
+        gap: 40px;
+        font-size: 20px;
+        font-family: fantasy;
+        
+    }
+    #btn img{
+        margin-left: 50px;
+        width: 100px;
+        margin-top: 50px;
+    }
+    button{
+        font-size:20px ;
+        font-weight: 600;
+        background-color: black;
+        color: rgb(18, 88, 83);
+        border-radius: 25px;
+        transform: scale(1);
+        transition-duration: 1s;
+        font-family: fantasy;
+    }
+    button:hover{
+        box-shadow: 0px 0px 8px rgb(187, 99, 26), inset 0px 0px 8px rgb(165, 87, 24);
+        transform: scale(1.2);
+        cursor: pointer;
+        transition-duration: 1s;
+    }
+    .perfil{
+        display: flex;
+    }
+    #corpo{
+        padding: 0px 40px;
+    }
+    #txt-principal p{
+        font-family: "Playwrite CU", cursive;
+        padding-right: 100px;
+        
+    }
+    #txt-principal{
+        
+        padding-right: 100px;
+        
+    }
+    #foto img{
+        position: relative;
+        animation: flutuar 3s ease-in-out infinite alternate;
+        width: 300px;
+        border-radius: 100px;
+    }
+    @keyframes flutuar {
+        0%{
+            top: 0;
+        }
+        100%{
+            top: 100px;
+        }
+    }
+    #txt-principal h1 span{
+        color:aquamarine;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    main {
+        padding-top: 350px;
+    }
+
+    #titulo1{
+        text-align: center;
+        font-family: fantasy;
+        color: rgb(107, 75, 23);
+        font-size: 40px;
+    }
+
+    #titulo2{
+        text-align: center;
+        font-family: fantasy;
+        color: rgb(107, 75, 23);
+        font-size: 40px;
+    }
+
+    #titulo3{
+        text-align: center;
+        font-family: fantasy;
+        color: rgb(107, 75, 23);
+        font-size: 40px;
+    }
+
+    .card{
+        background: transparent;
+        border: 03px solid rgb(107, 75, 23);
+        color: rgb(107, 75, 23);
+        
+    }
+
+    .card-text{
+        color: black;
+        
+    }
+
+    .icone{
+        color: black;
+        font-size: 50px;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card-body h1{
+        font-size: 15px;
+        align-self: first baseline;
+    }
+
+    .card-body i{
+        align-items: center;
+     }
+     #carde{
+        display: flex;
+        gap: 50px;
+        padding: 50px;
+        justify-content: center;
+     }
